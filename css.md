@@ -2,6 +2,18 @@
 
 # BFC
 
+`BFC` 全称为 `block formatting context`, 中文为 '块级格式化上下文'
+
+如果一个元素具有 `BFC`, 内部子元素再怎么折腾，都不会影响外部的元素。
+
+触发 `BFC` 的情况:
+* `html` 根元素
+* `float` 的值不为 `none`
+* `overflow` 的值为 `auto`,`scroll` 或 `hidden`
+* `display` 的值为 `table-cell`、`table-caption` 和 `inline-block` 中的任何一个
+* `position` 的值不为 `relative` 和 `static`
+
+
 # 居中的几种方式
 
 # 盒模型
@@ -52,3 +64,5 @@ div {
 # 伪元素
 
 # Normalize.css 与 reset.css
+
+# 文档流
